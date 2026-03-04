@@ -1,0 +1,47 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Next.js build artifacts (root level)
+build/
+server/
+cache/
+static/
+types/
+dev/
+diagnostics/
+BUILD_ID
+turbopack
+trace
+trace-build
+build-manifest.json
+fallback-build-manifest.json
+app-path-routes-manifest.json
+export-detail.json
+export-marker.json
+images-manifest.json
+next-minimal-server.js.nft.json
+next-server.js.nft.json
+prerender-manifest.json
+required-server-files.js
+required-server-files.json
+routes-manifest.json
+settings.local.json
+next-env.d.ts
+
+# environment variables
+.env
+.env.local
+.env.*.local
+
+# Cloudflare
+.wrangler/
+.dev.vars
+dist/
+
+# misc
+.DS_Store
+*.tsbuildinfo
